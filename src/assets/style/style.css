@@ -1,0 +1,45 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("../image/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: duty;
+    src: url("../font/call-of-ops-duty/font.otf");
+}
+
+@font-face {
+    font-family: komika;
+    src: url("../font/komika-poster/font.ttf");
+}
+
+@font-face {
+    font-family: visual;
+    src: url("../font/visual-magnets/font.ttf");
+}
+
+@font-face {
+    font-family: cool;
+    src: url("../font/coolvetica/font.ttf");
+}
+
+iframe {
+    display: none !important;
+}
